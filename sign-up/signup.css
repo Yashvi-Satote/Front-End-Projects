@@ -1,0 +1,49 @@
+body{
+    height: 250px;
+    margin: 0;
+}
+
+.border{
+
+    border: 2px solid rgb(220, 220, 220) ;
+    padding: 20px;
+    width: 340px;
+    margin: 150px 150px 150px 500px;
+    border-radius: 5px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    
+}
+
+#forgot{
+    margin-left: 80px;
+}
+
+.icon{
+    border: 1px solid rgb(171, 171, 171);
+    margin: 10px;
+    padding: 6px;
+    border-radius: 5px;
+}
+#sign{
+    background-color: rgb(105, 105, 252);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 5px;
+    font-size: medium;
+    color: white;
+    border: 1px solid white;
+}
+#mail{
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 5px 150px 5px 5px;
+    margin: 5px;
+}
+#password{
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 5px 150px 5px 5px;
+    margin: 5px;
+}
