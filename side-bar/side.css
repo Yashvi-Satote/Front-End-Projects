@@ -1,0 +1,74 @@
+body{
+  height: 250px;
+  margin: 0;
+}
+
+.user {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
+}
+
+.user li {
+  display: flex;
+  align-items: center;
+  padding:2px 0;
+  border-top: 1px solid #eee;
+  gap: 10px;
+}
+
+.user li:first-child {
+  border-top: none;
+}
+
+.user img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin: 3px;
+}
+
+.user .info { 
+  margin-left: 5px; 
+  padding-right: 3px; 
+}
+
+.user .info .name { 
+  font-size: 14px;
+   font-weight: 700; 
+   margin: 0; 
+   line-height: 1;
+}
+
+.user .info .email {
+  font-size: 13px; 
+  color: #666;
+   margin: 0; 
+   line-height: 1;
+}
+
+#box{
+  border: 1px solid gainsboro;
+  width: 220px;
+  margin: 150px 150px 150px 600px;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0 4px rgba(0, 0, 0, 0.5);
+}
+
+#search{
+  border: 1px solid gainsboro;
+  padding: 2px;
+  margin: 4px;
+  border-radius: 10px;
+}
+i{
+  color: gray;
+  padding: 10px;
+}
+
+#collections{
+  color: gray;
+  margin-right: 103px;
+}
